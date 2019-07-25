@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>文章归档 | 정주강</title>
+<title>Whoo 后 套装 | 정주강</title>
 <meta name="description" content="天地见，知轻重">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -13,6 +13,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://zzk1131363100.github.io/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -91,40 +97,45 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
+          <div class="post-detail">
+            <h2 class="post-title">Whoo 后 套装</h2>
+            <div class="post-date">2019-07-25</div>
+            
+              <div class="feature-container" style="background-image: url('https://zzk1131363100.github.io/post-images/whoo-hou-tao-zhuang.jpg')">
+              </div>
+            
+            <div class="post-content">
+              <p>Whoo 后 拱辰享 三件套 企划版781<br>
+<img src="https://zzk1131363100.github.io/post-images/1564052080673.jpg" alt=""></p>
+<pre><code>Whoo后 拱辰享 气韵生系列礼盒 免税版727
+![](https://zzk1131363100.github.io/post-images/1564052126433.jpg)
+</code></pre>
+<pre><code>Whoo后 拱辰享 三件套 企划版776
+![](https://zzk1131363100.github.io/post-images/1564052165682.jpg)
+</code></pre>
 
-          <h2 class="archives-title">文章归档</h2>
-          <div class="archives-container">
+            </div>
             
-              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2019</h2>
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://zzk1131363100.github.io/post/hangugeo-4-balpyojaryo-jeonjapan">
+                  <h3 class="post-title">
+                    한국어 4 발표자료 전자판
+                  </h3>
+                </a>
+              </div>
+            
+
+            
               
-                
-                  <article class="post">
-                    <a href="https://zzk1131363100.github.io/post/whoo-hou-tao-zhuang">
-                      <h2 class="post-title">
-                        Whoo 后 套装
-                      </h2>
-                    </a>
-                  </article>
-                
+                <div id="gitalk-container" data-aos="fade-in"></div>
               
-                
-                  <article class="post">
-                    <a href="https://zzk1131363100.github.io/post/hangugeo-4-balpyojaryo-jeonjapan">
-                      <h2 class="post-title">
-                        한국어 4 발표자료 전자판
-                      </h2>
-                    </a>
-                  </article>
-                
+
               
             
+
           </div>
-
-          <div class="pagination-container">
-  
-  
-</div>
 
         </div>
       </div>
@@ -146,6 +157,29 @@ var app = new Vue({
 })
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '2db5c9c023f2ca29f39b',
+        clientSecret: '39d9568344a96f45cd7b6c63fc24fd9d40f34790',
+        repo: 'zzk1131363100.github.io',
+        owner: 'zzk1131363100',
+        admin: ['zzk1131363100'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
